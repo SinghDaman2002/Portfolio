@@ -1,0 +1,41 @@
+<%- include ../partials/header.ejs%>
+<%- include ../partials/main_nav.ejs%>
+
+<main id="contactus">
+    <div id="contact-info">
+        <div id="heading">
+            <h1>CONTACT</h1>
+        </div>
+        <div id="myrws">
+            <div class="myrw">
+                <div class="ele">
+                    <label>FIRST NAME :</label>
+                    <input id="fname" type="text" placeholder="DAMANPREET">
+                </div>
+                <div class="ele">
+                    <label>LAST NAME :</label>
+                    <input id="lname" type="text" placeholder="SINGH">
+                </div>
+            </div>
+            <div class="myrw">
+                <div class="ele">
+                    <label>EMAIL :</label>
+                    <input id="email" type="mail" placeholder="abcd@gmail.com" required>
+                </div>
+                <div class="ele">
+                    <label>CONTACT NUMBER :</label>
+                    <input id="cnumber" type="number" placeholder="(+1)12345678" required>
+                </div>
+            </div>
+            <div class="myrw msgg">
+                <div class="ele">
+                    <label>MESSAGE :</label>
+                    <textarea placeholder="Your query." col="100" row="" required></textarea>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</main>
+<%- include ../partials/bottom_nav.ejs%>
+<%- include ../partials/footer.ejs%>
